@@ -1,9 +1,10 @@
 {
-  "version": "0.10.38",
+  "version": "0.10.39",
   "base_version": "base-2",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 개선 — 오토마우스 방식, 격수가 빨리 움직여도 안 놓쳐요\n• 어두운 곳에서도 격수를 다시 잘 찾아요\n• 격수: 게임창이 없으면 '찾는 중' 안내창이 떠요\n• 그 외 안정화 — 업데이트 후 [업데이트] 창에서 전체 변경 내용을 확인하세요",
   "changelog": {
+    "0.10.39": "F1 지정 수정 — 격수에 마우스 올리고 F1 누르면 그 순간 바로 지정(즉시) · 격수 화면 옛 안내문구 정리('3번 클릭'·'배경매칭')",
     "0.10.38": "격수 HP 표시 위치 수정 — 게임 하단 UI(채팅·스킬바)와 겹치지 않게 게임창 좌하단으로(참고와 동일)",
     "0.10.37": "격수·힐러 화면에서 '힐러 동작' 카드·활동 로그 삭제 — 동작/힐/HP/USB는 게임창에 표시(오버레이)",
     "0.10.36": "힐러 화면 정리 — 따라가기 방식을 '오토마우스'(기본)/'좌표중계'로 단순화(정밀 삭제), 격수 이름 학습 카드 숨김",
@@ -32,14 +33,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.18/LC2com-Warrior-Setup_0.10.18.exe",
       "sha256": "58f92af376153dfc3ceeeb4b64090e4140277c62cb084ce98e95e9bedf6082c8",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.38/LC2com-Warrior-Update_0.10.38.exe",
-      "update_sha256": "5d577b89958eed87ea9b2063c4e7b33797cc8507a07df66df6525a013112758a"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.39/LC2com-Warrior-Update_0.10.39.exe",
+      "update_sha256": "4a29ba813d7d01599de171f2bfe2a33ae02367d9107fdcd38c882dd16738b687"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.1/LC2com-Healer-Setup_0.10.1.exe",
       "sha256": "899e015c77d4240cf207850b933c7a535b1a54f85a6f8dd96b90575eb9222617",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.38/LC2com-Healer-Update_0.10.38.exe",
-      "update_sha256": "51d07d6670c9d696dd922999d3892b31c4bd999ac14867c628aee2e757647327"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.39/LC2com-Healer-Update_0.10.39.exe",
+      "update_sha256": "2696f27d55d13aeee39e98842caa5ecfa08924a6c08308f2e21a8e5c1f97de40"
     }
   }
 }
