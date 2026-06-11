@@ -1,9 +1,10 @@
 {
-  "version": "0.10.73",
+  "version": "0.10.74",
   "base_version": "base-4",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 전체화면(꽉 찬 화면)으로 게임해도 격수·힐러 HP를 제대로 읽어요(화면 검은 여백 제외)\n• 힐러 HP 낮으면 자동 자힐(F9 두 번) · '힐러 자힐 HP' 슬라이더\n• 버프 2개가 확실히 걸려요 · 전투 중에도 빈틈에 다시 걸려요\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.74": "전체화면 HP 인식을 더 단단하게 — 화면이 밝을 때 게임 화면 비율을 한 번 확인한 뒤로는 창 크기만으로 HP 위치를 계산해서, 어떤 모니터(16:9·21:9 등)·어두운 장면에서도 흔들림 없이 읽어요(매번 픽셀로 검은 여백을 찾지 않아요).",
     "0.10.73": "힐러가 자기 게임창을 못 찾아 힐러 HP·오버레이가 안 뜨던 문제 수정 — 이제 격수처럼 게임창을 계속 찾아서, 힐러 프로그램을 게임보다 먼저 켜도 게임을 켜면 자동으로 힐러 HP·오버레이가 떠요. 격수 게임창의 '격수 추종 중' 글씨는 지웠어요.",
     "0.10.72": "전체화면(꽉 찬 화면)으로 게임을 해도 격수·힐러 HP를 제대로 읽어요 — 화면 양옆(또는 위아래)의 검은 여백을 빼고 실제 게임 영역에서 HP바를 찾습니다(예전엔 전체화면에서 HP가 0%로 나왔어요). 창모드는 그대로 동작해요.",
     "0.10.71": "버프가 더 잘 걸려요 — 힐이 버프 시전 중에 끼어들어도 그 버프를 20분 기다리지 않고 곧 다시 걸어요(전투 중에도 빈틈에 버프가 들어가요). 격수를 다시 지정(F1)할 때도 녹색 박스가 3초간 떠요(예전엔 처음 지정 때만).",
@@ -67,14 +68,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.70/LineageClassic-Warrior_Setup_0.10.70.exe",
       "sha256": "1f553f5ddaf4b3a964cb95365b50d3e91e51947186e728131589c836096fa394",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.73/LineageClassic-Warrior_Update_0.10.73.exe",
-      "update_sha256": "6fff5acfea0cf023ec1a73465ef19920db3363eb0e32b0b58bac9e09d713eb33"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.74/LineageClassic-Warrior_Update_0.10.74.exe",
+      "update_sha256": "17eae51392daad3112412971b3338665dc8c20c6a481699e002db417b44378ea"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.70/LineageClassic-Healer_Setup_0.10.70.exe",
       "sha256": "168bdb1cdafbb57282e7eab2ef16061261c9725cef975408b243c183a8dd6aab",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.73/LineageClassic-Healer_Update_0.10.73.exe",
-      "update_sha256": "f0cf2669968458decc369463bc926bd3591c26dd90fd35d4e93637a043f9dc8f"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.74/LineageClassic-Healer_Update_0.10.74.exe",
+      "update_sha256": "8695f657bc260a69a68e380fc14094ac5ee86a95304c32a66e703ceeb0a71bab"
     }
   }
 }
