@@ -1,9 +1,10 @@
 {
-  "version": "0.10.66",
-  "base_version": "base-3",
+  "version": "0.10.67",
+  "base_version": "base-4",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 개선 — 오토마우스 방식, 격수가 빨리 움직여도 안 놓쳐요\n• 어두운 곳에서도 격수를 다시 잘 찾아요\n• 격수: 게임창이 없으면 '찾는 중' 안내창이 떠요\n• 그 외 안정화 — 업데이트 후 [업데이트] 창에서 전체 변경 내용을 확인하세요",
   "changelog": {
+    "0.10.67": "최대 HP·현재 HP를 다시 자동으로 읽어와요(글자 인식 복원). 무거운 AI 부품 없이 가벼운 인식 엔진(RapidOCR)을 써서 시작은 여전히 빨라요. ⚠️ 전체 다시 설치해야 적용돼요.",
     "0.10.66": "프로그램이 훨씬 가볍고 빨리 켜져요 — 안 쓰는 무거운 부품(AI 추적 라이브러리)을 빼서 켜는 데 20~30초 → 몇 초로 줄었고 설치 용량도 크게 줄었어요. ⚠️ 전체 다시 설치해야 적용돼요. (최대 HP는 직접 입력하세요 — 힐은 HP%로 그대로 작동해요.)",
     "0.10.65": "프로그램을 켜면 '켜는 중…' 안내 창(스피너)이 바로 떠요 — 무거워서 처음 켤 때 20~30초 걸리는데, 그동안 멈춘 게 아니라 켜지는 중이라는 걸 알 수 있어요(여러 번 누르지 않게). ※ 이 안내 창은 전체 다시 설치해야 적용돼요.",
     "0.10.64": "프로그램을 또 실행하거나 빠르게 더블클릭해도 백그라운드에 쌓이지 않고 조용히 닫혀요(기존 창만 앞으로 나옵니다). 설치·업데이트 후 자동 실행도 다시 됩니다. ※ 프로그램이 무거워서 켜고 창이 뜨기까지 20~30초 걸려요 — 그동안 여러 번 누르지 말고 기다려 주세요.",
@@ -58,16 +59,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.66/LC2com-Warrior-Setup_0.10.66.exe",
-      "sha256": "edcbade79c45045b14168e3e1fc1d2fa3cf59ee19f5a1313a4538e53417673fe",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.66/LC2com-Warrior-Update_0.10.66.exe",
-      "update_sha256": "478be5d84b5b348379e24c2ceb1fb109fdfa17cc7dfb48cf8a73b3ed857b5124"
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.67/LC2com-Warrior-Setup_0.10.67.exe",
+      "sha256": "da0e52bdd34eb0f198e77d9ffd0719602b6c08067d8307129d893bef15fb9656",
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.67/LC2com-Warrior-Update_0.10.67.exe",
+      "update_sha256": "2bebe134a22b0c2dd2f4c21ae0cff5170af7600a8696066317e2544aaf083100"
     },
     "healer": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.66/LC2com-Healer-Setup_0.10.66.exe",
-      "sha256": "08f60a679c28e4b020ab1a48c0e7038444b3c899b8406bcd73a8b6b6a671ef8e",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.66/LC2com-Healer-Update_0.10.66.exe",
-      "update_sha256": "0fd8bc92d14e40be319def874aedb1a1170df0947b728297d76323f7ca800a6d"
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.67/LC2com-Healer-Setup_0.10.67.exe",
+      "sha256": "32796e418c54317f9e180e8a6fa8b4771e910e23705105cd572749e05e997499",
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.67/LC2com-Healer-Update_0.10.67.exe",
+      "update_sha256": "78c87ac668dba343a78e2f276efeec1d608242bcd5ca11504138b5baee75f5ae"
     }
   }
 }
