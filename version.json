@@ -55,14 +55,14 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Warrior-Setup_0.10.57.exe",
-      "sha256": "c46c1c27c9667609e6d6b6005ef4934fa71e98f88cb0a9828ad70100d784ae6a",
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.63/LC2com-Warrior-Setup_0.10.63.exe",
+      "sha256": "a4b02c658d005bf7580a6b540c83d1a15974f4a5b681bf8c344a26a3065686dc",
       "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.63/LC2com-Warrior-Update_0.10.63.exe",
       "update_sha256": "c4865763a0e91d32baaeced92b81f110cd91e70b6c19e8b261b09701a67d4ab0"
     },
     "healer": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Healer-Setup_0.10.57.exe",
-      "sha256": "f3f134cfc4a1061cdd064d31ae685a1fa8297b89e8faa7cc8b423d6729e49d82",
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.63/LC2com-Healer-Setup_0.10.63.exe",
+      "sha256": "bd04f4e35bc7a98ffac2e2acd56dcd0f1887dbc8b16ebdedbe1991e4f9843588",
       "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.63/LC2com-Healer-Update_0.10.63.exe",
       "update_sha256": "1f503f463cd31e064646f0bc1dc1ece50522040a973b0faf33788a7ef004aba9"
     }
