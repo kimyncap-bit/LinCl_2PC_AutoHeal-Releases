@@ -1,9 +1,10 @@
 {
-  "version": "0.10.58",
+  "version": "0.10.59",
   "base_version": "base-2",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 개선 — 오토마우스 방식, 격수가 빨리 움직여도 안 놓쳐요\n• 어두운 곳에서도 격수를 다시 잘 찾아요\n• 격수: 게임창이 없으면 '찾는 중' 안내창이 떠요\n• 그 외 안정화 — 업데이트 후 [업데이트] 창에서 전체 변경 내용을 확인하세요",
   "changelog": {
+    "0.10.59": "캐릭터를 바꾸면 시작할 때 최대 HP를 다시 읽어와요(예전 캐릭터 HP가 남던 문제 수정) · F2를 누르면 버프 2개(마이티·덱스터리티)를 모두 걸어요 · 따라가는 중에 '마우스를 움직이면 멈춥니다' 안내가 떠요.",
     "0.10.58": "창이 화면 밖(분리된 모니터 등)에 떠서 안 보이고 '이미 실행 중'으로 막히던 문제 수정 — 이제 창이 항상 화면 안에 떠요. 업데이트 확인 버튼이 멈추지 않게 개선.",
     "0.10.57": "프로그램을 닫으면 확실히 완전 종료돼요 — 백그라운드에 남아 재부팅 때 되살아나거나 '이미 실행 중'으로 다시 안 켜지던 문제를 고쳤어요.",
     "0.10.56": "'로그전송'을 누르면 공유 드라이브 폴더에 바로 저장돼요 — 예전엔 다른 곳으로 전송돼 개발자가 못 보던 문제를 고쳤어요.",
@@ -52,14 +53,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Warrior-Setup_0.10.57.exe",
       "sha256": "c46c1c27c9667609e6d6b6005ef4934fa71e98f88cb0a9828ad70100d784ae6a",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.58/LC2com-Warrior-Update_0.10.58.exe",
-      "update_sha256": "e3b7f81c3cf521070884dc13bfbedfac32ccfa0ac25435d7bc005ce403120f35"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.59/LC2com-Warrior-Update_0.10.59.exe",
+      "update_sha256": "431551d848668a6bb023db7104feee4b2fff0b80c29bb2c4d612b128e19e5a1d"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Healer-Setup_0.10.57.exe",
       "sha256": "f3f134cfc4a1061cdd064d31ae685a1fa8297b89e8faa7cc8b423d6729e49d82",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.58/LC2com-Healer-Update_0.10.58.exe",
-      "update_sha256": "eeda30a32a4024fd53a209743be2d48ddee9b783d62f75d62386b4e9ad0c0402"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.59/LC2com-Healer-Update_0.10.59.exe",
+      "update_sha256": "f1830aa31d743b95cfb2df51e29fc8947583655fa59d0f7913e3f07872b23aac"
     }
   }
 }
