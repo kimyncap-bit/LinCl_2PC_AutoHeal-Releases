@@ -56,7 +56,7 @@
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Healer-Setup_0.10.57.exe",
-      "sha256": "cf67fed7a32063cc0cbffc63acec92d90f75698b2a0143619bb71d90ab851f47",
+      "sha256": "f3f134cfc4a1061cdd064d31ae685a1fa8297b89e8faa7cc8b423d6729e49d82",
       "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.57/LC2com-Healer-Update_0.10.57.exe",
       "update_sha256": "182281177a7c51fc4e4f35dd33e1077ca44191fa0adc53efdcdc5f1c780ef3c1"
     }
