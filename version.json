@@ -1,9 +1,10 @@
 {
-  "version": "0.10.85",
+  "version": "0.10.86",
   "base_version": "base-5",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 클릭이 더 자연스러워졌어요(매번 똑같은 간격 → 클릭마다 살짝 다르게)\n• 게임을 도중에 껐다 다시 켜도 안전하게 이어가요\n• 설정 손상·비정상 종료에도 자동 복구·진단\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.86": "힐러 자기 HP가 실제 100%인데 20%로 잘못 읽히던 문제를 고쳤어요 — 이제 힐러도 격수처럼 정확한 화면 캡처(DXGI) 방식으로 자기 HP를 읽습니다(예전엔 흐릿하게 잡혀 20%로 보였어요). 이게 원인이라 *불필요한 자힐이 자꾸 들어가고 로그전송 버튼도 멈춰 보이던 것*도 함께 풀립니다.",
     "0.10.85": "따라가기 클릭의 랜덤 간격을 더 정밀하게 다듬었어요 — 간격이 거의 항상(99%) 0.08~0.12초 범위에 정확히 들어오도록 개선(평균 0.1초=초당 10회 유지). (0.10.84 마무리·힐러만 해당)",
     "0.10.84": "따라가기 클릭이 더 자연스러워졌어요 — 매번 똑같은 간격으로 클릭하던 걸, 클릭마다 간격을 살짝(±20%·예: 0.1초 → 0.08~0.12초) 다르게 해서 사람처럼 동작해요. 평균 클릭 속도(설정값)는 그대로 유지됩니다. (힐러만 해당)",
     "0.10.83": "게임을 도중에 껐다가 다시 켜도 프로그램이 안전하게 이어가요(견고화 2단계) — 격수·힐러 둘 다, 게임창이 *중간에* 닫히면 따라가기·HP 읽기를 잠깐 멈추고 기다렸다가, 게임을 다시 켜면 자동으로 재개해요. (예전엔 게임을 도중에 끄면 사라진 게임창을 계속 붙잡고 동작하다 갑자기 꺼질 수 있었어요. 눈에 보이는 동작 변화는 없습니다.)",
@@ -79,14 +80,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Warrior_Setup_0.10.79.exe",
       "sha256": "efb7f84a7457ce3235aba1a81bd98c0f1d3d06302b197e08ec566f135b793fad",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.85/LC2PC-Warrior_Update.exe",
-      "update_sha256": "9d95fbaf7e2fb45489244870fef8aec3dd307d2092427049c6188e4dbe6a71d3"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.86/LC2PC-Warrior_Update.exe",
+      "update_sha256": "cdf61f7f1040f920ec04b84f8b15d4511b8ff1c4698942f76e02981dc094a507"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Healer_Setup_0.10.79.exe",
       "sha256": "f054958247057b7f1d6a56a1b3431533567cba29016a8ed56423c6ac07783529",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.85/LC2PC-Healer_Update.exe",
-      "update_sha256": "a3cb69dab7680f89be33646759efff36ecc03854701f0285ed26d7662a7c4178"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.86/LC2PC-Healer_Update.exe",
+      "update_sha256": "4db481030eb3d0e0f3856f3ca4d10d5bf212d5e50dda967bdcd7d6f144cc0a1a"
     }
   }
 }
