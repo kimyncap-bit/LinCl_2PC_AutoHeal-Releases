@@ -1,9 +1,10 @@
 {
-  "version": "0.10.77",
+  "version": "0.10.78",
   "base_version": "base-4",
   "channel": "alpha",
-  "release_notes": "투컴 힐러 업데이트\n\n• 게임 화면 위 안내(오버레이)를 켜고 끌 수 있어요 — 설정 창 스위치(기본 켜기)\n• 클릭 10회/초 · 격수 힐 90% · 힐러 자힐 90% 기본값(조절하면 유지)\n• 화면 위 글씨 정리(자동 팔로우/자동 힐/자동클릭) · 자동버프 끄면 격수가 더 가벼워요\n• 자세한 내용은 [업데이트] 창에서",
+  "release_notes": "투컴 힐러 업데이트\n\n• 전체화면↔창모드 전환·창 크기/위치 변경에도 HP를 실시간으로 잘 읽어요\n• 화면 위 안내(오버레이)도 항상 게임 화면 안에 떠요(검은 여백 X)\n• 전체화면을 껐다 켜도 끊김 없이 맞춰집니다\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.78": "전체화면으로 바꾸거나 창 크기·위치를 바꿔도 HP를 계속 실시간으로 잘 읽고, 화면 위 안내(오버레이)도 게임 화면 안에 떠요 — 전체화면을 켰다 껐다 해도 끊김 없이 맞춰집니다(예전엔 전체화면을 끄면 HP를 다시 못 읽거나, 전체화면에서 안내 글씨가 검은 여백에 떴어요).",
     "0.10.77": "게임 화면 위 안내(오버레이 메시지)를 켜고 끌 수 있어요 — 격수·힐러 설정 창의 스위치로(기본은 켜기). 클릭 속도·격수 힐 임계·힐러 자힐 임계 기본값을 10회/초·90%·90%로 맞췄어요(직접 조절하면 다음 실행에도 그대로 유지돼요). 화면 위 글씨 문구를 정리했어요(자동 팔로우 ON·자동 힐 ON·자동클릭). 자동버프를 끄면 격수 컴퓨터가 버프바를 계속 확인하지 않아 조금 더 가벼워요.",
     "0.10.76": "격수 컴퓨터 CPU 사용을 낮췄어요(안 쓰는 화면 분석을 줄임). 전체화면으로 해도 화면 위 안내 글씨가 검은 여백이 아니라 게임 화면 안에 떠요. 격수·힐러 설정 창의 세로 스크롤바를 없앴어요. 자동 버프 사용법 안내를 설정 창에 넣었어요. '게임창을 가리면 동작에 오류가 날 수 있어요' 주의 문구를 양쪽 게임 화면 위에 추가했어요. 격수 HP 표시를 '격수 HP 감시중'으로 바꾸고 글씨 크기를 다른 메시지와 맞췄어요.",
     "0.10.75": "힐러 자힐 HP 기준을 *격수 컴퓨터에서* 조절해요 — 격수 GUI의 '격수 힐 임계' 바로 밑에 '힐러 자힐 HP' 슬라이더가 생겼고, 거기서 정한 값이 힐러로 전달됩니다(힐러 GUI에 있던 자힐 슬라이더는 격수 GUI로 옮겼어요). ⚠️ 격수·힐러 둘 다 업데이트하세요(통신 방식 변경).",
@@ -71,14 +72,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.70/LineageClassic-Warrior_Setup_0.10.70.exe",
       "sha256": "1f553f5ddaf4b3a964cb95365b50d3e91e51947186e728131589c836096fa394",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.77/LineageClassic-Warrior_Update_0.10.77.exe",
-      "update_sha256": "f8edf2da00c14fa04b2139d5eed856f242efd006b4c0bbab1e9c648a19409b61"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.78/LineageClassic-Warrior_Update_0.10.78.exe",
+      "update_sha256": "fd8654dd8622fa453dc28b12e3150314b6da6a2dfb0af919ae2e7bcae1141800"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.70/LineageClassic-Healer_Setup_0.10.70.exe",
       "sha256": "168bdb1cdafbb57282e7eab2ef16061261c9725cef975408b243c183a8dd6aab",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.77/LineageClassic-Healer_Update_0.10.77.exe",
-      "update_sha256": "403c5c63d7ebd489093eccff0f91aedef05c34b308f14360b21100bea50b8a85"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.78/LineageClassic-Healer_Update_0.10.78.exe",
+      "update_sha256": "113e9e87abfc765651dddb7d7d9e61ffa71327f46ba04b391f2db79d764d9c14"
     }
   }
 }
