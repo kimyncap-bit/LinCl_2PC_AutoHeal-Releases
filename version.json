@@ -1,9 +1,10 @@
 {
-  "version": "0.10.91",
+  "version": "0.10.92",
   "base_version": "base-5",
   "channel": "alpha",
   "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 클릭이 더 자연스러워졌어요(매번 똑같은 간격 → 클릭마다 살짝 다르게)\n• 게임을 도중에 껐다 다시 켜도 안전하게 이어가요\n• 설정 손상·비정상 종료에도 자동 복구·진단\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.92": "업데이트 창에 '전체 설치' 버튼을 추가했어요 — 빠른 업데이트가 안 되거나 깨끗하게 다시 깔고 싶을 때 이 버튼을 누르면, 브라우저로 항상 최신 전체 설치본(인증서 포함)을 받아 실행만 하면 됩니다. (인터넷 인증서 문제와 상관없이 항상 받아져요.)",
     "0.10.91": "문제 진단 강화 — HP를 못 읽을 때(캡처 실패) 그 원인과 화면 조각을 로그에 자동 기록해요. '로그 보내기'만 누르면 개발자가 *왜* 못 읽는지(어느 캡처 방식인지·화면이 검정인지)와 실제 HP바 이미지를 바로 확인할 수 있어요. (눈에 보이는 동작 변화는 없고 진단만 강화했어요.)",
     "0.10.90": "어떤 그래픽카드(내장·외장)에서도 HP를 정확히 읽도록 강화했어요 — 화면 캡처가 일시적으로 실패하면(전체화면 전환·해상도 변경 등) 자동으로 복구해서 다시 잡습니다. 캡처가 잠깐 안 될 땐 잘못된 0%로 읽어 헛힐하지 않고 'HP 자동 인식 중…' 메시지를 보여줘요(초기 인식이 조금 걸려도 괜찮아요). 격수·힐러 둘 다 자기 HP를 같은 방식으로 안정적으로 읽어요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.89": "격수 설정 창의 '힐러 HP'에 수치값(현재/최대)도 보여요 — 예전엔 %만 나왔는데 이제 '268 / 307 (87%)'처럼 나옵니다(힐러가 자기 HP 수치를 격수에 보내줘요). 그리고 로그 파일 이름을 알아보기 쉽게 바꿨어요: LC2PC_로그_날짜_시각_계정. ⚠️ 격수·힐러 둘 다 업데이트하세요(통신 형식이 바뀌었어요).",
@@ -85,14 +86,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Warrior_Setup_0.10.79.exe",
       "sha256": "efb7f84a7457ce3235aba1a81bd98c0f1d3d06302b197e08ec566f135b793fad",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.91/LC2PC-Warrior_Update.exe",
-      "update_sha256": "db278b6388704b0ee17fa603d23a26c05e60bdb09730dd93c5a5ae73f23c8f34"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.92/LC2PC-Warrior_Update.exe",
+      "update_sha256": "cf130780878bff0aa250ebaa5b11a8c17747d87e54ec35a64dcdb15cf97551fd"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Healer_Setup_0.10.79.exe",
       "sha256": "f054958247057b7f1d6a56a1b3431533567cba29016a8ed56423c6ac07783529",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.91/LC2PC-Healer_Update.exe",
-      "update_sha256": "667749bdd4f3f914f026ee80e2b624db6cb8ee8a9fcd62e8be35d2ff29e976ee"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.92/LC2PC-Healer_Update.exe",
+      "update_sha256": "b906a29dfd129075fa2b2dee19fb372975b6c217bfc3b1335b9ec89a15e59318"
     }
   }
 }
