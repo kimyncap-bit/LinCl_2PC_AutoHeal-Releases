@@ -1,9 +1,10 @@
 {
-  "version": "0.10.93",
+  "version": "0.10.94",
   "base_version": "base-5",
   "channel": "alpha",
-  "release_notes": "투컴 힐러 업데이트\n\n• 따라가기 클릭이 더 자연스러워졌어요(매번 똑같은 간격 → 클릭마다 살짝 다르게)\n• 게임을 도중에 껐다 다시 켜도 안전하게 이어가요\n• 설정 손상·비정상 종료에도 자동 복구·진단\n• 자세한 내용은 [업데이트] 창에서",
+  "release_notes": "투컴 힐러 업데이트\n\n• 프로그램을 가볍게 정리했어요 — 안 쓰는 코드·대용량 파일(약 100MB)을 빼서 힐러 설치본이 절반 이하로 작아졌어요\n• 따라가기·힐·자힐·버프·HP 인식 등 동작하는 기능은 전부 그대로\n• 용량 절감은 [전체 설치]로 새로 받을 때 적용돼요\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.94": "프로그램을 가볍게 정리했어요 — 실제로 안 쓰는 기능 코드와, 깔려 있어도 로드되지 않던 대용량 파일(약 100MB)을 빼서 힐러 설치본이 절반 이하(약 166MB→72MB)로 작아졌어요(다운로드·설치가 빨라져요). 따라가기·힐·자힐·버프·HP 인식 등 실제 동작하는 기능은 전부 그대로예요. (용량 절감은 [전체 설치]로 새로 받을 때 적용돼요.)",
     "0.10.93": "AMD 등 일부 그래픽카드에서 화면 캡처가 한 번 끊긴 뒤 다시 안 잡히던 문제를 고쳤어요 — 이제 끊겨도 2초마다 계속 다시 시도해서, 게임 화면이 안정되면 자동으로 정확한 캡처(DXGI)로 복원됩니다. (정적·로딩 화면에서는 불필요한 재시도를 안 해서 가벼워요.)",
     "0.10.92": "업데이트 창에 '전체 설치' 버튼을 추가했어요 — 빠른 업데이트가 안 되거나 깨끗하게 다시 깔고 싶을 때 이 버튼을 누르면, 브라우저로 항상 최신 전체 설치본(인증서 포함)을 받아 실행만 하면 됩니다. (인터넷 인증서 문제와 상관없이 항상 받아져요.)",
     "0.10.91": "문제 진단 강화 — HP를 못 읽을 때(캡처 실패) 그 원인과 화면 조각을 로그에 자동 기록해요. '로그 보내기'만 누르면 개발자가 *왜* 못 읽는지(어느 캡처 방식인지·화면이 검정인지)와 실제 HP바 이미지를 바로 확인할 수 있어요. (눈에 보이는 동작 변화는 없고 진단만 강화했어요.)",
@@ -85,16 +86,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Warrior_Setup_0.10.79.exe",
-      "sha256": "efb7f84a7457ce3235aba1a81bd98c0f1d3d06302b197e08ec566f135b793fad",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.93/LC2PC-Warrior_Update.exe",
-      "update_sha256": "9bd3d80411819adc141383895d806c092f81653b0f816eb9378cbc916f46ebd6"
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Warrior_Setup.exe",
+      "sha256": "5bd282e20c4b603ad6c207ebb38353c8a92fd455994e8406b1475bffdaf352c8",
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Warrior_Update.exe",
+      "update_sha256": "31b005eb1e5a952be44483f24daa9a392f52f48f1b99f4ffad943e9451df7031"
     },
     "healer": {
-      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.79/LineageClassic-Healer_Setup_0.10.79.exe",
-      "sha256": "f054958247057b7f1d6a56a1b3431533567cba29016a8ed56423c6ac07783529",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.93/LC2PC-Healer_Update.exe",
-      "update_sha256": "95fb5e9e8927c54962c65404eab39dc1e94bf775c37763628a911fbc39dc9403"
+      "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Healer_Setup.exe",
+      "sha256": "c71c091d96e919ea512ddf1dab472b3fdedcaf7f01648e185c870df9f8f064c4",
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Healer_Update.exe",
+      "update_sha256": "d4f0a8a11d2347fceebb8fac5417e48279eb406a2d65446f534e3ac59a48d24d"
     }
   }
 }
