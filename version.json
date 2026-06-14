@@ -1,9 +1,10 @@
 {
-  "version": "0.10.94",
+  "version": "0.10.95",
   "base_version": "base-5",
   "channel": "alpha",
-  "release_notes": "투컴 힐러 업데이트\n\n• 프로그램을 가볍게 정리했어요 — 안 쓰는 코드·대용량 파일(약 100MB)을 빼서 힐러 설치본이 절반 이하로 작아졌어요\n• 따라가기·힐·자힐·버프·HP 인식 등 동작하는 기능은 전부 그대로\n• 용량 절감은 [전체 설치]로 새로 받을 때 적용돼요\n• 자세한 내용은 [업데이트] 창에서",
+  "release_notes": "투컴 힐러 업데이트\n\n• 일부 PC에서 힐러가 갑자기 꺼지던(자동 재시작 반복) 문제를 고쳤어요\n• 따라가기·힐·자힐·버프·HP는 전부 그대로예요\n• 안 쓰던 '날씨 표시'와 '순간이동 자동감지'는 제거(텔포 후엔 F1로 다시 지정)\n• ⚠️ 격수·힐러 둘 다 업데이트하세요\n• 자세한 내용은 [업데이트] 창에서",
   "changelog": {
+    "0.10.95": "일부 컴퓨터에서 힐러가 *갑자기 꺼지던*(그리고 자동으로 다시 켜지길 반복하던) 문제를 고쳤어요 — 게임 화면의 밝기를 재던 부분이 특정 그래픽카드와 충돌해 프로그램을 죽였는데, 그 기능(격수 순간이동 자동 감지 + 좌상단 날씨 표시)은 따라가기·힐·HP와 *무관*해서 아예 빼서 충돌 원인을 없앴어요. 따라가기·힐·HP·자힐·버프는 전부 그대로예요. (격수가 순간이동하면 힐러가 자동으로 멈춰주던 편의 기능은 사라지니, 텔레포트 후엔 F1로 다시 지정해 주세요.) ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.94": "프로그램을 가볍게 정리했어요 — 실제로 안 쓰는 기능 코드와, 깔려 있어도 로드되지 않던 대용량 파일(약 100MB)을 빼서 힐러 설치본이 절반 이하(약 166MB→72MB)로 작아졌어요(다운로드·설치가 빨라져요). 따라가기·힐·자힐·버프·HP 인식 등 실제 동작하는 기능은 전부 그대로예요. (용량 절감은 [전체 설치]로 새로 받을 때 적용돼요.)",
     "0.10.93": "AMD 등 일부 그래픽카드에서 화면 캡처가 한 번 끊긴 뒤 다시 안 잡히던 문제를 고쳤어요 — 이제 끊겨도 2초마다 계속 다시 시도해서, 게임 화면이 안정되면 자동으로 정확한 캡처(DXGI)로 복원됩니다. (정적·로딩 화면에서는 불필요한 재시도를 안 해서 가벼워요.)",
     "0.10.92": "업데이트 창에 '전체 설치' 버튼을 추가했어요 — 빠른 업데이트가 안 되거나 깨끗하게 다시 깔고 싶을 때 이 버튼을 누르면, 브라우저로 항상 최신 전체 설치본(인증서 포함)을 받아 실행만 하면 됩니다. (인터넷 인증서 문제와 상관없이 항상 받아져요.)",
@@ -88,14 +89,14 @@
     "warrior": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Warrior_Setup.exe",
       "sha256": "5bd282e20c4b603ad6c207ebb38353c8a92fd455994e8406b1475bffdaf352c8",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Warrior_Update.exe",
-      "update_sha256": "31b005eb1e5a952be44483f24daa9a392f52f48f1b99f4ffad943e9451df7031"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.95/LC2PC-Warrior_Update.exe",
+      "update_sha256": "dc0fd2f6c7612778ce9629ebd973df5c7f33cdc77a0c27f40beb47ee992c3229"
     },
     "healer": {
       "download_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Healer_Setup.exe",
       "sha256": "c71c091d96e919ea512ddf1dab472b3fdedcaf7f01648e185c870df9f8f064c4",
-      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.94/LC2PC-Healer_Update.exe",
-      "update_sha256": "d4f0a8a11d2347fceebb8fac5417e48279eb406a2d65446f534e3ac59a48d24d"
+      "update_url": "https://github.com/kimyncap-bit/lc_2com-Releases/releases/download/0.10.95/LC2PC-Healer_Update.exe",
+      "update_sha256": "d5d9a8f6da509b1661f746c70ed46e9730ff17754986b544c22150f79f787027"
     }
   }
 }
