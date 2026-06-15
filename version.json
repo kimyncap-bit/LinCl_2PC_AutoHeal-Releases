@@ -1,9 +1,10 @@
 {
-  "version": "0.10.97",
+  "version": "0.10.98",
   "base_version": "nuitka-1",
   "channel": "alpha",
-  "release_notes": "린클 2PC 자동힐 업데이트 (0.10.97)\n\n• '로그 보내기'로 보낸 진단 로그가 더 안정적으로 개발자에게 전달돼요(전용 서버로 바로 전송, 안 되면 예전 방식으로 자동 폴백)\n• 따라가기·힐·HP 등 실제 동작은 0.10.96과 완전히 동일 — 로그 보내는 방식만 개선\n• 작은 업데이트예요(전체 재설치 불필요)\n• ⚠️ 격수·힐러 둘 다 업데이트하세요",
+  "release_notes": "린클 2PC 자동힐 업데이트 (0.10.98)\n\n• '로그 보내기'를 격수컴·힐러컴 어디서 눌러도 양쪽 로그가 합쳐져 한 번에 전송돼요(힐러컴까지 갈 필요 없음)\n• 보낸 뒤엔 버튼이 잠시 비활성화 → 플레이로 새 로그가 쌓이면 다시 전송 가능\n• 따라가기·힐·HP 등 실제 동작은 0.10.97과 동일 — 로그 보내기 편의만 개선\n• 작은 업데이트예요(전체 재설치 불필요)\n• ⚠️ 격수·힐러 둘 다 업데이트하세요(양쪽이 서로 로그를 주고받아요)",
   "changelog": {
+    "0.10.98": "'로그 보내기'를 격수컴·힐러컴 *어디서 눌러도* 양쪽 PC 로그가 합쳐져 한 번에 전송돼요 — 격수컴 앞에서 플레이하다 그 자리에서 바로 보낼 수 있어요(힐러컴까지 갈 필요 없음). 보낸 뒤엔 버튼이 잠시 비활성화됐다가, 플레이로 새 로그가 쌓이면 다시 보낼 수 있어요. 따라가기·힐·HP 등 실제 동작은 0.10.97과 동일해요. ⚠️ 격수·힐러 둘 다 업데이트하세요(양쪽이 서로 로그를 주고받아요).",
     "0.10.97": "'로그 보내기'로 보낸 진단 로그가 더 안정적으로 개발자에게 전달돼요 — 이제 전용 서버로 바로 올라가서, 구글드라이브 동기화가 안 되는 PC에서도 잘 도착합니다(안 될 땐 예전 방식으로 자동 폴백). 따라가기·힐·HP 등 실제 동작은 0.10.96과 *완전히 동일*하고, 로그 보내는 방식만 개선했어요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.96": "이번 한 번은 *전체 설치본*으로 업데이트돼요 — 프로그램 내부를 새로운 방식으로 다시 묶었어요(동작·기능·HP·따라가기·힐은 0.10.95와 *완전히 동일*, 눈에 보이는 변화 없음). 내부 구조가 바뀌어 이번만 전체를 받지만(약 74MB), 다음부터는 다시 작은 업데이트(약 11MB)로 빨라져요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.95": "일부 컴퓨터에서 힐러가 *갑자기 꺼지던*(그리고 자동으로 다시 켜지길 반복하던) 문제를 고쳤어요 — 게임 화면의 밝기를 재던 부분이 특정 그래픽카드와 충돌해 프로그램을 죽였는데, 그 기능(격수 순간이동 자동 감지 + 좌상단 날씨 표시)은 따라가기·힐·HP와 *무관*해서 아예 빼서 충돌 원인을 없앴어요. 따라가기·힐·HP·자힐·버프는 전부 그대로예요. (격수가 순간이동하면 힐러가 자동으로 멈춰주던 편의 기능은 사라지니, 텔레포트 후엔 F1로 다시 지정해 주세요.) ⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -89,16 +90,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.97/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "2c1394ea2d64b58f891a091dab7468d507451f6f58de19507fef435eaf6bf715",
-      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.97/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "d5ac69c25c3c32c2217017c8518a76501886c784fd932ec8d02711052d72096e"
+      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.98/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "fecb186fd464e09db5ba9acf8c4ba981b83151c7174da89201c9f859c0422bf3",
+      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.98/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "b1e297372c63c2b40348f0f2164016cd3aa1f9cb5b32cce1148a2df2f21f8207"
     },
     "healer": {
-      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.97/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "af36510d0d1fd0fd7285650ffab3339ee66c59affce87ccad18adabe4d0e3be6",
-      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.97/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "e75a335a28fdc93f51ae1cdfca85a6d820c959df7dc1d8ca05f470f1bd33d5d9"
+      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.98/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "02952ef662f9aef49967a77239f68ae84f160e975239460b38f0a1d0f23ec54d",
+      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.98/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "924fd5fc7365c4bd18eb22c05d8153c1af69049c222567a079fe87644b9688ec"
     }
   }
 }
