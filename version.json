@@ -91,15 +91,15 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.99/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "cf08df08164a7d19a524628b92b26da28fd79ce053d1926fa726bb00d4617488",
-      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.99/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Warrior_Update.exe",
       "update_sha256": "8c085ef8c8e53c5a5d70ba0d9f62ef02f5097d9eec8e9ce5c8cd957c7f66c329"
     },
     "healer": {
-      "download_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.99/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "2ac2b1f15e7a720dce2a74da087f8c1634b2806b2ca80aa70e8283aefbc8f917",
-      "update_url": "https://github.com/kimyncap-bit/LinCl_2PC_AutoHeal-Releases/releases/download/0.10.99/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Healer_Update.exe",
       "update_sha256": "cc82f1544999b3759c4f7d4c6fecd4c8db7f063196194f9b76a60535ef5f7f65"
     }
   }
