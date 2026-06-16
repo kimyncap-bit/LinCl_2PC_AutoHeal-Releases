@@ -1,9 +1,10 @@
 {
-  "version": "0.10.99",
+  "version": "0.10.100",
   "base_version": "nuitka-1",
   "channel": "alpha",
   "release_notes": "린클 2PC 자동힐 업데이트 (0.10.99)\n\n• 격수컴·힐러컴 어느 쪽에서 업데이트해도 양쪽이 함께 업데이트돼요(힐러컴까지 갈 필요 없음)\n• 설치 중 '확인' 클릭 없이 자동으로 끝나고 자동 재시작돼요\n• 새 버전이 잘못돼 안 켜지면 자동으로 직전 버전으로 되돌려요(양쪽 동시 먹통 방지)\n• 따라가기·힐·HP 등 실제 동작은 그대로 — 업데이트 편의·안전만 개선\n• 작은 업데이트예요(전체 재설치 불필요)\n• ⚠️ 격수·힐러 둘 다 업데이트하세요",
   "changelog": {
+    "0.10.100": "관리자 권한 없이 실행되도록 바꿨어요(테스트 버전) — 켤 때 '이 앱이 변경하도록 허용' 창(UAC)이 안 떠요. 따라가기·힐·HP 등 실제 동작은 0.10.99와 동일해요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.99": "업데이트가 더 편하고 안전해졌어요 — ① 격수컴·힐러컴 *어느 쪽에서 업데이트해도 양쪽이 함께* 업데이트돼요(힐러컴까지 갈 필요 없음) ② 설치 중 '확인' 클릭 없이 자동으로 끝나고 자동 재시작돼요 ③ 혹시 새 버전이 잘못돼 안 켜지면 *자동으로 직전 버전으로 되돌려서* 양쪽이 동시에 먹통 되는 일이 없어요. 따라가기·힐·HP 등 실제 동작은 그대로예요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.98": "'로그 보내기'를 격수컴·힐러컴 *어디서 눌러도* 양쪽 PC 로그가 합쳐져 한 번에 전송돼요 — 격수컴 앞에서 플레이하다 그 자리에서 바로 보낼 수 있어요(힐러컴까지 갈 필요 없음). 보낸 뒤엔 버튼이 잠시 비활성화됐다가, 플레이로 새 로그가 쌓이면 다시 보낼 수 있어요. 따라가기·힐·HP 등 실제 동작은 0.10.97과 동일해요. ⚠️ 격수·힐러 둘 다 업데이트하세요(양쪽이 서로 로그를 주고받아요).",
     "0.10.97": "'로그 보내기'로 보낸 진단 로그가 더 안정적으로 개발자에게 전달돼요 — 이제 전용 서버로 바로 올라가서, 구글드라이브 동기화가 안 되는 PC에서도 잘 도착합니다(안 될 땐 예전 방식으로 자동 폴백). 따라가기·힐·HP 등 실제 동작은 0.10.96과 *완전히 동일*하고, 로그 보내는 방식만 개선했어요. ⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -91,16 +92,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "cf08df08164a7d19a524628b92b26da28fd79ce053d1926fa726bb00d4617488",
-      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "8c085ef8c8e53c5a5d70ba0d9f62ef02f5097d9eec8e9ce5c8cd957c7f66c329"
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.100/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "c787786ee4a7441ea5e4c0941d672da67cc9e92a11be7c75524efc6b7ca6d324",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.100/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "b3dc17a8e6c075cb468f5937124208935e81a93fd857fa36d340f30dbff197be"
     },
     "healer": {
-      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "2ac2b1f15e7a720dce2a74da087f8c1634b2806b2ca80aa70e8283aefbc8f917",
-      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.99/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "cc82f1544999b3759c4f7d4c6fecd4c8db7f063196194f9b76a60535ef5f7f65"
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.100/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "23b7e9da98193600334d92d16690b49485b3d73bc9c39ef5e9b75046c7aac5ea",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.100/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "20fa4cfcdc8cbb6635346b5adfe0b378f7ac076213a2069f1f929031dda47898"
     }
   }
 }
