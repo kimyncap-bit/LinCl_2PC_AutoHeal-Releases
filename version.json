@@ -1,9 +1,10 @@
 {
-  "version": "0.10.104",
+  "version": "0.10.105",
   "base_version": "nuitka-1",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.104)\n\n게임을 켜지 않아도 프로그램이 바로 열려요(이제 게임 없이도 업데이트할 수 있어요).\n설정 창을 보기 좋게 새로 디자인하고 간소화했어요(기능·동작은 그대로예요).\n힐러 화면은 격수를 지정하기 전엔 안내만 보이고, 지정되면 전체 화면이 나타나요.\n설치·업데이트 후 바탕화면 아이콘이 2개로 보이던 문제를 고쳤어요(옛 바로가기 자동 정리).",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.105)\n\n2PC 힐러를 린클패스에서 [플레이]로 실행하도록 정리했어요(보안 강화 — 직접 실행은 막혀요).\n힐러·격수 설정 창을 다듬었어요(불필요한 표시·안내 문구 정리).\n⚠️ 린클패스를 업데이트한 뒤, 린클패스에서 2PC 힐러를 [설치]·[플레이]로 켜세요.",
   "changelog": {
+    "0.10.105": "2PC 힐러를 린클패스에서 [플레이]로 실행하도록 정리했어요(보안 강화 — 직접 실행은 막혀요).\n힐러·격수 설정 창을 다듬었어요(불필요한 표시·안내 문구 정리).\n⚠️ 린클패스를 업데이트한 뒤, 린클패스에서 2PC 힐러를 [설치]·[플레이]로 켜세요.",
     "0.10.104": "게임을 켜지 않아도 프로그램이 바로 열려요(이제 게임 없이도 업데이트할 수 있어요).\n설정 창을 보기 좋게 새로 디자인하고 간소화했어요(기능·동작은 그대로예요).\n힐러 화면은 격수를 지정하기 전엔 안내만 보이고, 지정되면 전체 화면이 나타나요.\n설치·업데이트 후 바탕화면 아이콘이 2개로 보이던 문제를 고쳤어요(옛 바로가기 자동 정리).",
     "0.10.103": "이름·아이콘·로고를 '린클랩'으로 새로 바꿨어요(린클랩 2PC 힐러 / 린클랩 2PC 격수).\n바탕화면 아이콘과 설정 창 로고가 바뀌어요.\n힐러 설정 창도 보기 좋게 다듬었어요(기능·동작은 이전과 똑같아요).",
     "0.10.102": "처음 켤 때 뜨는 '사용법 안내' 창에서 아래 '확인' 버튼이 안 보이던 문제를 고쳤어요.\n작은 노트북 화면에서도 버튼이 항상 보이고, 안내가 길면 스크롤돼요.",
@@ -96,16 +97,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.104/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "145b08513264df60a809f0f9a3ff0967881b5ac001989831b5d1e14d28ad6b8e",
-      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.104/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "c1678d8974b52375084e5f4a929369b17d52a99f82d92d603fc64c862a7e3973"
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.105/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "54a33dbe350ccc364e1346e6450db670bab423aebad51105949291d1a5f76c56",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.105/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "0fd7f856beb8e2b800853236f302810b5bd425ed8f15687fb793f7c181520691"
     },
     "healer": {
-      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.104/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "d467db0c60f5c57188463fc325ee7d372bed6bfa968ee581315d50cab83a6194",
-      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.104/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "66dc25f7776db49b8a816e1d418d92bcf3fac819c47747863f43fb12f409ae21"
+      "download_url": "https://158.247.247.110.sslip.io/dl/0.10.105/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "d8d621eb30c28bdf841e1003d1234ad3f033f90fdb1d47528cc5855a33c97026",
+      "update_url": "https://158.247.247.110.sslip.io/dl/0.10.105/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "535200cd65ff550da89848b1814e74afc4025d037378418d7916f38c96ebf369"
     }
   }
 }
