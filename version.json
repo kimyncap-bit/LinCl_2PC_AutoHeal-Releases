@@ -1,9 +1,10 @@
 {
-  "version": "0.10.118",
+  "version": "0.10.119",
   "base_version": "nuitka-2",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.118)\n\n게임 화면의 안내 글씨가 게임창 크기에 맞춰 자동으로 커지고 작아져요.\n같은 네트워크에서 여러 팀을 동시에 돌릴 수 있어요 — 격수·힐러 연결 화면의 '세트 코드'를 같은 번호로 맞추면 그 짝끼리만 연결돼요.\n힐러 HP가 설정값 이하로 떨어지면 자동복귀(F8)를 눌러줘요 — 격수 창에서 켜고 임계를 조절하세요(기본 꺼짐).\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.119)\n\n같은 네트워크에서 여러 팀을 돌릴 때, 세트 번호가 다른 팀과 섞이던 문제를 고쳤어요(같은 번호끼리만 정확히 연결돼요).\n힐러 따라가기 클릭을 초당 6회로 조정했어요(±20% 랜덤 간격은 그대로).\n격수 설치가 더 간단해졌어요 — 설치 창이 한 번만 떠요. 켜질 때 '로딩 중' 안내가 나와요.\n격수 HP 인식이 게임창 크기가 살짝 흔들려도 더 안정적이에요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.119": "같은 네트워크에서 여러 팀을 돌릴 때, 세트 번호가 다른 팀과 섞이던 문제를 고쳤어요(같은 번호끼리만 정확히 연결돼요).\n힐러 따라가기 클릭을 초당 6회로 조정했어요(±20% 랜덤 간격은 그대로).\n격수 설치가 더 간단해졌어요 — 설치 창이 한 번만 떠요. 켜질 때 '로딩 중' 안내가 나와요.\n격수 HP 인식이 게임창 크기가 살짝 흔들려도 더 안정적이에요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.118": "게임 화면의 안내 글씨가 게임창 크기에 맞춰 자동으로 커지고 작아져요.\n같은 네트워크에서 여러 팀을 동시에 돌릴 수 있어요 — 격수·힐러 연결 화면의 '세트 코드'를 같은 번호로 맞추면 그 짝끼리만 연결돼요.\n힐러 HP가 설정값 이하로 떨어지면 자동복귀(F8)를 눌러줘요 — 격수 창에서 켜고 임계를 조절하세요(기본 꺼짐).\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.117": "격수 창이 가끔 \"응답없음\"으로 뜨던 것을 완화했어요(화면 인식 재시도 방식 조정).\n격수와 연결되지 않아도 자기 HP를 표시해요.\n여러 그래픽카드(노트북 등)에서 화면(HP) 인식을 더 견고하게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.116": "화면 그리기·창 이동이 느리던 문제를 진단 중이에요 — 일부 화면 인식 기능을 잠시 꺼서 이전처럼 되돌렸어요(테스트 빌드).",
@@ -108,16 +109,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/0.10.118/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "7b096c56f61217ab09260bc7821a65c5073e92e5a493076a38ab847c46651e5d",
-      "update_url": "https://dl.lincllab.com/0.10.118/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "edd7d7eb0399da57cc027500af21373bfdd6ed122089cef53f56502265e77de8"
+      "download_url": "https://dl.lincllab.com/0.10.119/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "164178884b863dfadf12d439771d095cc899fab4a289bba1a3a62d46a5cbabf3",
+      "update_url": "https://dl.lincllab.com/0.10.119/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "5e605ee081408534be5256aa880f18ffc1942c9f2dfdf240d753b64ea0138d69"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/0.10.118/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "43a0a6e1f1ab09b94ddacca854c951973a23690324907eefb4fac387194a9efb",
-      "update_url": "https://dl.lincllab.com/0.10.118/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "ee816ae96f7490a568a1e7f5a3a6cac987f5675d82443dbe7382b47c79f490c7"
+      "download_url": "https://dl.lincllab.com/0.10.119/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "5d2d4a2a21aff174c432fe6730c58a60175d60c0af2c27989d61f0dab58af28b",
+      "update_url": "https://dl.lincllab.com/0.10.119/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "1a8d7ec20a5c1eda78d4a81729a038a2e88747eb39da41b032ee5c6aa889f6f0"
     }
   }
 }
