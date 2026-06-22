@@ -110,15 +110,15 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/0.10.120/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "download_url": "https://cdn.lincllab.com/2pc/0.10.120/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "6e745f557dee203ab7053638205b7c22f684467abe8c9b0d859ffa61097729ba",
-      "update_url": "https://dl.lincllab.com/0.10.120/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_url": "https://cdn.lincllab.com/2pc/0.10.120/LinCl_2PC_AutoHeal-Warrior_Update.exe",
       "update_sha256": "c7dd5cf4af1eb68315251fbcd5f9438e1b4f3bfe3f9a3a5d94dd42bebf729998"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/0.10.120/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "download_url": "https://cdn.lincllab.com/2pc/0.10.120/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "8bf8ef91cc9a3d78678e3c28406a351a253fd3a5549a36992c45760be63ce6ca",
-      "update_url": "https://dl.lincllab.com/0.10.120/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_url": "https://cdn.lincllab.com/2pc/0.10.120/LinCl_2PC_AutoHeal-Healer_Update.exe",
       "update_sha256": "cdd244ccc7ab95d2a481be0c4622f699c70e9600509f2d1c9f6193c1f033ba8c"
     }
   }
