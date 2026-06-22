@@ -1,9 +1,11 @@
 {
-  "version": "0.10.113",
+  "version": "0.10.117",
   "base_version": "nuitka-2",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.113)\n\n힐러 실행이 다시 빨라졌어요(최근 느려진 문제 수정).\n켜지는 동안 \"프로그램 로딩 중\" 표시가 떠요(겹쳐 실행 방지).\n일부 노트북에서 HP를 못 읽던 문제를 고쳤어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.117)\n\n격수 창이 가끔 \"응답없음\"으로 뜨던 것을 완화했어요(화면 인식 재시도 방식 조정).\n격수와 연결되지 않아도 자기 HP를 표시해요.\n여러 그래픽카드(노트북 등)에서 화면(HP) 인식을 더 견고하게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.117": "격수 창이 가끔 \"응답없음\"으로 뜨던 것을 완화했어요(화면 인식 재시도 방식 조정).\n격수와 연결되지 않아도 자기 HP를 표시해요.\n여러 그래픽카드(노트북 등)에서 화면(HP) 인식을 더 견고하게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+    "0.10.116": "화면 그리기·창 이동이 느리던 문제를 진단 중이에요 — 일부 화면 인식 기능을 잠시 꺼서 이전처럼 되돌렸어요(테스트 빌드).",
     "0.10.113": "힐러 실행이 다시 빨라졌어요 — 최근 느려진 원인을 찾아 되돌렸어요(수초 내에 떠요).\n켜지는 동안 \"프로그램 로딩 중\" 표시가 떠요(겹쳐 실행 방지).\n일부 노트북에서 HP를 못 읽어 100%로 멈추던 문제를 고쳤어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.112": "화면(GUI) 표시 갱신을 가볍게 해 더 부드러워졌어요 — 연결시간·연결 애니메이션의 불필요한 다시 그리기를 줄였어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.111": "힐러 프로그램이 켜질 때 수 분씩 걸리던 문제를 고쳤어요 — 이제 빠르게 떠요.\n격수·힐러 연결이 끊겼다 붙었다 하던 것도 안정적으로 고쳤어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -105,16 +107,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/0.10.113/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "bbdee4cb8bcd83dce60d7ebb53dae7e3ce47f07eb85d7a7f6b5220ab064ede39",
-      "update_url": "https://dl.lincllab.com/0.10.113/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "908515e9e798303db8aae2cb5c810ad5ad26e12fac3646562f1d9fee65968b92"
+      "download_url": "https://dl.lincllab.com/0.10.117/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "f64eb9ff29d799c1aad0371b5733331a548717b018530167787c9012ec97bdce",
+      "update_url": "https://dl.lincllab.com/0.10.117/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "27f7f58c5771c08017b720badcfabf5b4a72d4a4d96a5a2de5ae10cb204401df"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/0.10.113/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "4cd47d0c5defe299424ed6e2f697cf547439318cf9b8b5d92ad1966f4ab671b5",
-      "update_url": "https://dl.lincllab.com/0.10.113/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "e058a23ec5ab2c430cc286315b8bffbd81f5e8c71b810409599e06271eb6ea9e"
+      "download_url": "https://dl.lincllab.com/0.10.117/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "a7f39371c510508207c895279dfd590be728e12e69534fa14a540421473f1938",
+      "update_url": "https://dl.lincllab.com/0.10.117/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "cba0245efb5f3734a4b9acef2dc876d46426b59d3bb55bc41c9dc920c16eb63e"
     }
   }
 }
