@@ -1,9 +1,10 @@
 {
-  "version": "0.10.123",
+  "version": "0.10.124",
   "base_version": "nuitka-2",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.123)\n\n화면이 검게 잡힐 때 힐러가 마을복귀(F8)를 잘못 반복하던 문제를 고쳤어요.\n자동복귀는 HP가 정상이었다가 떨어질 때만 작동해요.\n화면이 안 읽힐 때 원인을 더 자세히 기록해 빠르게 해결할 수 있게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.124)\n\n사냥터를 옮겨 게임 창 크기가 바뀌어도 HP를 끊김 없이 계속 읽어요.\nHP를 다시 맞추는 잠깐 동안에도 직전 HP를 유지해 힐이 멈추지 않아요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.124": "사냥터를 옮겨 게임 창 크기가 바뀌어도 HP를 끊김 없이 계속 읽어요.\nHP를 다시 맞추는 잠깐 동안에도 직전 HP를 유지해 힐이 멈추지 않아요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.123": "화면이 검게 잡힐 때 힐러가 마을복귀(F8)를 잘못 반복하던 문제를 고쳤어요.\n자동복귀는 HP가 정상이었다가 떨어질 때만 작동해요.\n화면이 안 읽힐 때 원인을 더 자세히 기록해 빠르게 해결할 수 있게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.122": "같은 세트 번호를 3대 이상 켜면 이제 모든 화면에 경고가 떠요(전엔 일부 화면만).\n같은 번호가 겹쳐도 연결이 끊겼다 붙었다 하지 않아요(처음 연결한 상대에 고정).\nHP 인식 카운트다운은 게임 화면에 HP가 보일 때만 떠요(게임 켜기 전 불필요한 카운트 제거).\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.121": "게임 화면이 뜨면 중앙에 3·2·1 카운트다운이 보여요 — 그동안 게임창을 움직이지 않으면 HP를 더 정확하게 잡아요.\nHP를 잘못 잡았으면 'HP초기화' 버튼으로 다시 인식할 수 있어요.\n힐·자힐 결과를 'HP 67% → 100% (+33%)'처럼 더 자세히 보여줘요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -115,14 +116,14 @@
     "warrior": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "d06260c4985b79c05cb9573d6abd4571ad5da36e1c59a8c0e1c2df49cee7b8ff",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.123/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "a444577fc8e2fd6aa941a7033846fd7d71b28bc6b5fb45bef5ad7e6bcc7ed459"
+      "update_url": "https://dl.lincllab.com/0.10.124/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "e8833b33992e11c3232b203d58b68231765764a46921a28852e6b2de59e132ed"
     },
     "healer": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "1b33c147a0ccf41fab0326fff324142e868cc015b315a458442f97bcc55ae24d",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.123/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "9c94047f99a215736b42cecb3b296368554fea13e02fd38cb62280e1189860af"
+      "update_url": "https://dl.lincllab.com/0.10.124/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "968b281cd7daa92438c3dd62de006a5a6fe16f273f78a67f5f828efae9faa74a"
     }
   }
 }
