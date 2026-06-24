@@ -116,13 +116,13 @@
     "warrior": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "d06260c4985b79c05cb9573d6abd4571ad5da36e1c59a8c0e1c2df49cee7b8ff",
-      "update_url": "https://dl.lincllab.com/0.10.124/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_url": "https://cdn.lincllab.com/2pc/0.10.124/LinCl_2PC_AutoHeal-Warrior_Update.exe",
       "update_sha256": "e8833b33992e11c3232b203d58b68231765764a46921a28852e6b2de59e132ed"
     },
     "healer": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "1b33c147a0ccf41fab0326fff324142e868cc015b315a458442f97bcc55ae24d",
-      "update_url": "https://dl.lincllab.com/0.10.124/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_url": "https://cdn.lincllab.com/2pc/0.10.124/LinCl_2PC_AutoHeal-Healer_Update.exe",
       "update_sha256": "968b281cd7daa92438c3dd62de006a5a6fe16f273f78a67f5f828efae9faa74a"
     }
   }
