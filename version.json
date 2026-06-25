@@ -1,9 +1,10 @@
 {
-  "version": "0.10.128",
+  "version": "0.10.129",
   "base_version": "nuitka-3",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.128)\n\n설정 창을 정리했어요 — 불필요한 버튼을 없애고 아래가 잘리던 문제를 고쳤어요.\n슬라이더(임계값) 조작이 더 부드러워졌어요.\n프로그램 제거가 깨끗하게 돼요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.129)\n\n설정 화면 글씨를 메이플스토리체로 바꿨어요.\n안내 문구 줄간격·정렬을 보기 좋게 다듬었어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.129": "설정 화면 글씨를 메이플스토리체로 바꿨어요.\n안내 문구 줄간격·정렬을 보기 좋게 다듬었어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.128": "설정 창을 정리했어요 — 불필요한 버튼을 없애고 아래가 잘리던 문제를 고쳤어요.\n슬라이더(임계값) 조작이 더 부드러워졌어요.\n프로그램 제거가 깨끗하게 돼요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.127": "프로그램 창(설정 화면)이 안 뜨던 문제를 고쳤어요 — 이제 격수·힐러 창이 정상적으로 떠요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.126": "독에 걸려 HP바 색이 초록·검정으로 변해도 HP를 정확히 읽어요 — 잘못된 마을복귀(F8)·헛힐을 막았어요.\n설정 화면을 새 디자인으로 바꿨어요(기능·동작은 이전과 같아요).\n⚠️ 이번 업데이트는 전체 설치본으로 받아요(약 90MB). 격수·힐러 둘 다 업데이트하세요.",
@@ -118,16 +119,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://cdn.lincllab.com/2pc/0.10.128/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "fced78deab73bd3b2169c8d4ff5d89ca795b70b09b7f7f8ff19001d51e7d01e5",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.128/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "b1708e3dc48ba6f63a71b3c6867d323526ae2c22d5db6882cb4eafbdba9ce1d6"
+      "download_url": "https://dl.lincllab.com/0.10.129/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "2d2bf1387e927970b4fca392d5bb73e32193e8c97221a384dec384b143a112da",
+      "update_url": "https://dl.lincllab.com/0.10.129/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "4e8b9b5cde07142300165046259bc592dd82589fdd72d9b3fa67e4eb5a48d8c7"
     },
     "healer": {
-      "download_url": "https://cdn.lincllab.com/2pc/0.10.128/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "c67f24108ff13a743967930a7afb12812a989f5ed4d8b9cd9d7ad76fb5ce171f",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.128/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "dfe31ed80f8aede5d6587c546efcf2acecf7e9d30190d36298411fc428af7bd1"
+      "download_url": "https://dl.lincllab.com/0.10.129/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "5f9e93acd91768838803da4c7763ec442bbf79a89a7b133e5bf28c2ff3512977",
+      "update_url": "https://dl.lincllab.com/0.10.129/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "06fe6898b3f09c04edc7cf6cc714ab5eab8b5ac792ed7a1b6c97bae2cf846695"
     }
   }
 }
