@@ -1,9 +1,10 @@
 {
-  "version": "0.10.125",
-  "base_version": "nuitka-2",
+  "version": "0.10.126",
+  "base_version": "nuitka-3",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.125)\n\n여러 팀을 같은 네트워크에서 돌릴 때, 나중에 켠 세트의 세트 번호가 겹치면 자동으로 다음 번호로 바꿔 줘요 — 설정을 안 바꿔도 돼요(짝 PC도 같은 번호로 맞춰 주세요).\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.126)\n\n독에 걸려 HP바 색이 초록·검정으로 변해도 HP를 정확히 읽어요 — 잘못된 마을복귀(F8)·헛힐을 막았어요.\n설정 화면을 새 디자인으로 바꿨어요(기능·동작은 이전과 같아요).\n⚠️ 이번 업데이트는 전체 설치본으로 받아요(약 90MB). 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.126": "독에 걸려 HP바 색이 초록·검정으로 변해도 HP를 정확히 읽어요 — 잘못된 마을복귀(F8)·헛힐을 막았어요.\n설정 화면을 새 디자인으로 바꿨어요(기능·동작은 이전과 같아요).\n⚠️ 이번 업데이트는 전체 설치본으로 받아요(약 90MB). 격수·힐러 둘 다 업데이트하세요.",
     "0.10.125": "여러 팀을 같은 네트워크에서 돌릴 때, 나중에 켠 세트의 세트 번호가 겹치면 자동으로 다음 번호로 바꿔 줘요 — 설정을 안 바꿔도 돼요(짝 PC도 같은 번호로 맞춰 주세요).\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.124": "사냥터를 옮겨 게임 창 크기가 바뀌어도 HP를 끊김 없이 계속 읽어요.\nHP를 다시 맞추는 잠깐 동안에도 직전 HP를 유지해 힐이 멈추지 않아요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.123": "화면이 검게 잡힐 때 힐러가 마을복귀(F8)를 잘못 반복하던 문제를 고쳤어요.\n자동복귀는 HP가 정상이었다가 떨어질 때만 작동해요.\n화면이 안 읽힐 때 원인을 더 자세히 기록해 빠르게 해결할 수 있게 했어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -115,16 +116,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "d06260c4985b79c05cb9573d6abd4571ad5da36e1c59a8c0e1c2df49cee7b8ff",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.125/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "08c977a4831b710f22574782403a108fbe7691a369301488dc5a46e7a35ab781"
+      "download_url": "https://dl.lincllab.com/0.10.126/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "cda8de1565e9c7ff1ce43d62da35b230f7831f91314c2d1ffa2f8e9fb9b1ad5b",
+      "update_url": "https://dl.lincllab.com/0.10.126/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "a6f035184893a56db0d3f54f92af718e815565d4eab4a7281d5a6186f00dc498"
     },
     "healer": {
-      "download_url": "https://cdn.lincllab.com/2pc/0.10.122/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "1b33c147a0ccf41fab0326fff324142e868cc015b315a458442f97bcc55ae24d",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.125/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "68f48b5c1eee2a0fc9db769b3353d629c485a4340c5c10027857befaa6143303"
+      "download_url": "https://dl.lincllab.com/0.10.126/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "d7b2561e4057d7c4f4b70755241e65650edfd35016f72c0337acb78a6478015d",
+      "update_url": "https://dl.lincllab.com/0.10.126/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "a48c3e30b31dcb930c9814c0bbbd309ef0d3195186646a7f3e6f6225ad7f6ba2"
     }
   }
 }
