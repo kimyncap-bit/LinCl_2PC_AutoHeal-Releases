@@ -1,9 +1,10 @@
 {
-  "version": "0.10.132",
+  "version": "0.10.133",
   "base_version": "nuitka-3",
   "channel": "alpha",
-  "release_notes": "린클랩 2PC 업데이트 (0.10.132)\n\n독에 걸린 격수에게 버프가 끊임없이 들어가던 문제를 고쳤어요 — 힐이 잠잠해진 뒤 1회만 시전해요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
+  "release_notes": "린클랩 2PC 업데이트 (0.10.133)\n\n창이 작거나 화면이 흐릿하게 잡히는 PC에서 HP를 잘못 읽던 문제를 고쳤어요.\n게임 창 크기를 바꾸는 동안 HP가 잠깐 틀어지던 것도 안정적으로 고쳤어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
   "changelog": {
+    "0.10.133": "창이 작거나 화면이 흐릿하게 잡히는 PC에서 HP를 잘못 읽던 문제를 고쳤어요.\n게임 창 크기를 바꾸는 동안 HP가 잠깐 틀어지던 것도 안정적으로 고쳤어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.132": "독에 걸린 격수에게 버프가 끊임없이 들어가던 문제를 고쳤어요 — 힐이 잠잠해진 뒤 1회만 시전해요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.131": "중독(독)에 걸려 HP바 색이 초록·검정으로 변해도 HP를 정확히 읽어 자동 힐·자동 귀환이 제대로 작동해요.\n독에 걸린 컴퓨터 화면에 '중독 상태'가 표시돼요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
     "0.10.130": "게임 화면 위 안내(오버레이)가 안 뜨던 문제를 고쳤어요.\n독에 걸렸을 때 HP 인식을 개선하고 있어요.\n⚠️ 격수·힐러 둘 다 업데이트하세요.",
@@ -124,14 +125,14 @@
     "warrior": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.130/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "b3a4382a401a4a439245ddce587bb5a1c4e2d11f7d4f3943bbbed2dfe191b91a",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.132/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "14c0d21b236acc75c44a336c5f494e410ce132089bf969827133c10d71a80118"
+      "update_url": "https://dl.lincllab.com/0.10.133/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "55954e33f89b7b54efb22f3a8d2bf87b79a0d211984378761396d48f5c374d39"
     },
     "healer": {
       "download_url": "https://cdn.lincllab.com/2pc/0.10.130/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "12f13b26bef540d091529480eb5b8f3d48af03e92742d1658a3d4207f57e6d74",
-      "update_url": "https://cdn.lincllab.com/2pc/0.10.132/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "54307a0f64120068fa53c4a381191c07c90c7a9949058dc055ba8320fb6131c4"
+      "update_url": "https://dl.lincllab.com/0.10.133/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "92a9fc8190cded68b6817b4e72c9f4ec0999627b90b5101bea98207f73faabeb"
     }
   }
 }
