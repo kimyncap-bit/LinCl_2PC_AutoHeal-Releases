@@ -1,25 +1,26 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "base_version": "nuitka-3",
   "channel": "stable",
-  "release_notes": "린클랩 2PC — 정식 출시 버전이에요.",
+  "release_notes": "린클랩 2PC 업데이트 (v1.0.1)\n\n설정 창의 버튼·슬라이더 조작 반응이 훨씬 빨라졌어요.",
   "changelog": {
+    "1.0.1": "설정 창의 F1·F2·슬라이더 조작 반응 속도를 크게 개선했어요.",
     "1.0.0": "린클랩 2PC 정식 출시 버전이에요."
   },
   "min_python": "3.12",
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://cdn.lincllab.com/2pc/1.0.0/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "b68bc260c2086429db8477afd5dcc621db35271d2aaa19ea64cd5bd3b701aecb",
-      "update_url": "https://cdn.lincllab.com/2pc/1.0.0/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "3d6ea5a9aa3699322482b6aab5d0a05310840a4f5f8f65e7197fadf9a2372e0a"
+      "download_url": "https://dl.lincllab.com/1.0.1/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "6145f2248903165f059beadf05a4be52d05c1fefefeb5812479add9821d10617",
+      "update_url": "https://dl.lincllab.com/1.0.1/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "8ffd2541d8d6603490a1081a8c0e7549ddf534fa5ad7c733ed4c9063158781a0"
     },
     "healer": {
-      "download_url": "https://cdn.lincllab.com/2pc/1.0.0/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "9e93036a314b8f1af4f0c235e589d00b1af5390df0c27996526fedaca14e6b2b",
-      "update_url": "https://cdn.lincllab.com/2pc/1.0.0/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "832eeae122df70c016bb402d5804ee6dfa4d81a6c379bd0b1649d45a56cb9b7a"
+      "download_url": "https://dl.lincllab.com/1.0.1/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "829f2b1b7acf36a1a242c40a0eb6c67aec0c7213bfd4bd9f7459c03af4022b85",
+      "update_url": "https://dl.lincllab.com/1.0.1/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "24ff33bc38c53f49029d4bf6c5b457013d6126c441262ce90f42ab9caa5273b6"
     }
   }
 }
