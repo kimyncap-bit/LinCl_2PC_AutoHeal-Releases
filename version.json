@@ -1,9 +1,10 @@
 {
-  "version": "1.0.3",
+  "version": "2.0.0",
   "base_version": "nuitka-3",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v1.0.3)\n\n게임을 도중에 껐다 켜도 프로그램이 멈추지 않도록 안정성을 높였어요.",
+  "release_notes": "린클랩 2PC 업데이트 (v2.0.0)\n\n● 헤이스트 버프가 추가되어 버프가 3개가 됐어요 — 힐러 게임창의 F10에 헤이스트, F11에 인챈트 덱스터리티, F12에 인챈트 마이티를 등록해 주세요.\n● 헤이스트는 힐러 자신에게도 걸어줘요.\n● 전투 중 같은 버프가 중복으로 걸리던 문제와, 신호가 잠깐 끊겼다 돌아올 때 버프가 겹치던 문제를 고쳤어요.\n● 격수가 집중 공격받을 때 힐이 끊기던 현상을 줄이고, 힐을 조금 더 촘촘하게 넣어요.\n● 독(중독)에 걸렸을 때 체력을 잘못 읽던 문제를 근본적으로 고쳤어요 — 힐이 덜 들어가거나 마을로 잘못 귀환하지 않아요.\n● 와이드·울트라와이드 모니터와 전체화면에서 격수 체력을 정확히 인식해요(4:3·16:9·21:9 모두).\n● 체력을 못 읽을 때는 엉뚱한 숫자를 만들지 않고 인식 실패로 처리해요. 화면이 30초 넘게 검게 나오면 '[HP초기화]를 눌러주세요' 안내가 떠요.\n● 힐러 자동귀환이 순간적인 체력 하락에 잘못 발동하지 않아요. 발동하면 격수·힐러 양쪽 게임 화면에 안내가 떠요.\n● 세트가 하나뿐인데 '세트번호가 겹칩니다' 경고가 잘못 뜨던 문제를 고쳤어요.\n● 격수 설정 창에서 따라가기·자동힐 키를 고를 수 있어요 (F1·F2 / Scroll Lock·Pause / Insert·Delete).\n● 힐러 화면을 정리했어요 — 힐 카드와 버프·힐·귀환 아이콘, 격수 지정 안내 그림을 넣고, 연결 상태 옆에 내부 IP를 초록색으로 표시해요.\n● 게임 화면 안내 문구의 위치와 글씨 크기가 화면 크기에 맞게 자동으로 조정돼요. 새 버전이 나오면 켤 때 안내 팝업이 떠요.",
   "changelog": {
+    "2.0.0": "● 헤이스트 버프가 추가되어 버프가 3개가 됐어요 — 힐러 게임창의 F10에 헤이스트, F11에 인챈트 덱스터리티, F12에 인챈트 마이티를 등록해 주세요.\n● 헤이스트는 힐러 자신에게도 걸어줘요.\n● 전투 중 같은 버프가 중복으로 걸리던 문제와, 신호가 잠깐 끊겼다 돌아올 때 버프가 겹치던 문제를 고쳤어요.\n● 격수가 집중 공격받을 때 힐이 끊기던 현상을 줄이고, 힐을 조금 더 촘촘하게 넣어요.\n● 독(중독)에 걸렸을 때 체력을 잘못 읽던 문제를 근본적으로 고쳤어요 — 힐이 덜 들어가거나 마을로 잘못 귀환하지 않아요.\n● 와이드·울트라와이드 모니터와 전체화면에서 격수 체력을 정확히 인식해요(4:3·16:9·21:9 모두).\n● 체력을 못 읽을 때는 엉뚱한 숫자를 만들지 않고 인식 실패로 처리해요. 화면이 30초 넘게 검게 나오면 '[HP초기화]를 눌러주세요' 안내가 떠요.\n● 힐러 자동귀환이 순간적인 체력 하락에 잘못 발동하지 않아요. 발동하면 격수·힐러 양쪽 게임 화면에 안내가 떠요.\n● 세트가 하나뿐인데 '세트번호가 겹칩니다' 경고가 잘못 뜨던 문제를 고쳤어요.\n● 격수 설정 창에서 따라가기·자동힐 키를 고를 수 있어요 (F1·F2 / Scroll Lock·Pause / Insert·Delete).\n● 힐러 화면을 정리했어요 — 힐 카드와 버프·힐·귀환 아이콘, 격수 지정 안내 그림을 넣고, 연결 상태 옆에 내부 IP를 초록색으로 표시해요.\n● 게임 화면 안내 문구의 위치와 글씨 크기가 화면 크기에 맞게 자동으로 조정돼요. 새 버전이 나오면 켤 때 안내 팝업이 떠요.",
     "1.0.3": "게임을 도중에 껐다 켜도 프로그램이 멈추지 않도록 안정성을 높였어요.",
     "1.0.2": "게임 화면 위 안내 문구와 글씨 크기·위치를 정리했어요.",
     "1.0.1": "설정 창의 F1·F2·슬라이더 조작 반응 속도를 크게 개선했어요.",
@@ -13,16 +14,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://cdn.lincllab.com/2pc/1.0.2/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "99819768a3325dd75dae7aed6fa51375103b683795f7dad30718e0853f6b604b",
-      "update_url": "https://cdn.lincllab.com/2pc/1.0.3/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "f1382d4aee10b4a0960633a55d05382fa23d3e8f80f1298c4f293a6aa1b23de7"
+      "download_url": "https://dl.lincllab.com/2.0.0/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "653e378e0e4e952964aa76e587737cfe00bb61c7e0b4e8fc7d21a2755c4e5429",
+      "update_url": "https://dl.lincllab.com/2.0.0/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "ff91e007978970378e9679994a40464e7e67fc6469cb1ba1c746dde0bb03bbcc"
     },
     "healer": {
-      "download_url": "https://cdn.lincllab.com/2pc/1.0.2/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "cad849a3ea2abebf2e073a76b2cbe50d00a887c6df4677742ab20fee36733a9b",
-      "update_url": "https://cdn.lincllab.com/2pc/1.0.3/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "4926da963b1224a1cb238e697a6559608efd2e59705161f18a085202b0cc9ff3"
+      "download_url": "https://dl.lincllab.com/2.0.0/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "0ee96156fdb4a0ab375396d430b3fd5c802c2816ba666215f0ecbfd0d2999672",
+      "update_url": "https://dl.lincllab.com/2.0.0/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "35250afdafb794f9d3e51e0ccbb2d887be73adc82655c6ad97594e65e78c6f86"
     }
   }
 }
