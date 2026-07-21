@@ -1,9 +1,10 @@
 {
-  "version": "3.0.2",
+  "version": "3.0.3",
   "base_version": "nuitka-4",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v3.0.2)\n● 화면이 어두워졌을 때 격수 체력을 못 읽던 문제를 고쳤어요 — 어두워도 체력바를 찾아 읽어요.",
+  "release_notes": "린클랩 2PC 업데이트 (v3.0.3)\n● 게임 창을 위아래에 검은 여백이 생기는 크기로 쓸 때 체력을 못 읽던 문제를 고쳤어요.",
   "changelog": {
+    "3.0.3": "● 게임 창을 위아래에 검은 여백이 생기는 크기로 쓸 때 체력을 못 읽던 문제를 고쳤어요.",
     "3.0.2": "● 화면이 어두워졌을 때 격수 체력을 못 읽던 문제를 고쳤어요 — 어두워도 체력바를 찾아 읽어요.",
     "3.0.1": "● 게임 창 크기에 따라 격수 HP를 못 읽던 문제를 고쳤어요. 이제 어떤 창 크기에서도 정상 동작해요.\n● 버프를 넣는 중에 힐이 겹치지 않도록 했어요. 버프가 안 걸리는 경우가 줄어요.",
     "3.0.0": "[체력 인식]\n● 체력 인식을 근본부터 새로 만들었어요 — 화면의 체력바를 보이는 그대로 읽어요.\n● 예전에는 '이 컴퓨터의 만피 기준'을 학습했는데, 그게 잘못 잡히면 체력을 실제보다 높게 봐서 힐이 늦거나 끊겼어요. 그 학습을 없앴어요.\n● 풀밭·눈밭·용암 같은 배경이나 채팅 글자에 속지 않아요 — 화면 가운데 고정된 장식을 기준으로 찾아요.\n● 중독(독)에 걸려 체력바 색이 변해도 정확히 읽어요.\n● 채팅창을 올려 체력바 위치가 달라져도, 전체화면이나 큰 화면에서도 정확히 읽어요.\n● [HP초기화] 버튼의 부작용을 없앴어요 — 체력이 가득 차지 않았을 때 눌러도 '만피'로 잘못 기억하지 않아요.\n\n[기능 추가·개선]\n● 버프를 격수 컴퓨터에서 켜고 끄는 방식으로 바꿨어요 — 켜면 바로 걸고, 그 뒤 20분마다 다시 걸어요.\n● 버프를 최대 4개까지 사용할 수 있어요.\n● 헤이스트는 대상을 고를 수 있어요 (격수 / 법사 / 격수+법사).\n● 버프 단축키를 없앴어요 — F7·F10·F11·F12를 게임에서 그대로 쓸 수 있어요. 버프는 마우스로만 켜고 꺼요.\n● 법사 자동귀환을 켜 두면, 체력이 위험 수치 아래로 떨어질 때 즉시 나가요 — 예전엔 1.5초 기다렸어요.\n● 힐이 더 촘촘하게 나가고, 법사 자기 힐도 같은 간격으로 맞췄어요.\n● 마우스를 건드리면 자동 기능이 멈춰요 — 엉뚱한 곳을 계속 클릭하지 않아요.\n\n[화면·UI]\n● 설정 창을 새로 만들었어요 — 글꼴이 통일되고 글자가 더 또렷해요.\n● '힐러'를 '법사'로 바꿨어요.\n● 자동 기능이 멈추면 격수·법사 양쪽 화면에 안내가 떠요 — 밝은 곳에서도 잘 보이게 배경을 넣었어요.\n● 큰 화면에서 게임 안내 글자가 잘리던 문제를 고쳤어요.\n\n[성능]\n● 격수 설정 창이 훨씬 가벼워졌어요 — 창을 그리는 데 쓰던 컴퓨터 부담을 크게 줄였어요.\n● 법사가 대기 중일 때 컴퓨터가 느려지던 문제를 고쳤어요.\n\n[기타]\n● 게임을 꺼도 안내 문구가 바탕화면에 남던 문제를 고쳤어요.\n● 업데이트를 설치한 뒤 법사는 자동으로 켜지지 않아요 — 린클패스 [플레이]로 켜 주세요.\n● 체력이나 힐에 문제가 생겼을 때 원인을 찾을 수 있도록 진단 기록을 넣었어요.\n● 쓰이지 않던 옛 코드를 정리했어요.",
@@ -13,16 +14,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/3.0.2/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "fc82bfa0f44291c0f15d21547ebeb093b22678ce4498b24dbbba8e44e7878719",
-      "update_url": "https://dl.lincllab.com/3.0.2/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "845c58f712adce91a0acb649a42a06f9f99dc5cfb1d6886ef6c03e011ed784d9"
+      "download_url": "https://dl.lincllab.com/3.0.3/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "66da53a5beffaf824808acaff5ac7fc072762c759d5767cf35c6844616d79651",
+      "update_url": "https://dl.lincllab.com/3.0.3/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "0f4f8e2fddb27c6b0049a73ceea32cc0bf07cc29584f0745d6c9d1912c864a1b"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/3.0.2/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "5f3b57635cfeaff8a14332468cee7480f85a494ac280f2d1145f10269039b414",
-      "update_url": "https://dl.lincllab.com/3.0.2/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "477f05f5ca8527d3624b3b91057644e75258e4eb44b51178c2dc34d29e26bf13"
+      "download_url": "https://dl.lincllab.com/3.0.3/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "ccf25e133eb0efe382e4aca9562d0a0116d6214a24743effec8580528f020fba",
+      "update_url": "https://dl.lincllab.com/3.0.3/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "cf132416bb585e632b6cd15a9eda6ab83d83461e521957d0593602b6e478106e"
     }
   }
 }
