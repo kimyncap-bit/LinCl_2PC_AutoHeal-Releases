@@ -1,9 +1,10 @@
 {
-  "version": "3.0.4",
+  "version": "3.0.5",
   "base_version": "nuitka-4",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v3.0.4)\n● 프로그램을 켤 때 나오는 로딩 화면이 멈춰 보이던 문제를 고쳤어요 — 이제 부드럽게 움직여요.\n● 문제가 생겼을 때 원인을 정확히 찾을 수 있도록 기록을 보강했어요.",
+  "release_notes": "린클랩 2PC 업데이트 (v3.0.5)\n● 프로그램을 켤 때 창이 뜨지 않던 문제를 고쳤어요.",
   "changelog": {
+    "3.0.5": "● 프로그램을 켤 때 창이 뜨지 않던 문제를 고쳤어요.",
     "3.0.4": "● 프로그램을 켤 때 나오는 로딩 화면이 멈춰 보이던 문제를 고쳤어요 — 이제 부드럽게 움직여요.\n● 문제가 생겼을 때 원인을 정확히 찾을 수 있도록 기록을 보강했어요.",
     "3.0.3": "● 게임 창을 위아래에 검은 여백이 생기는 크기로 쓸 때 체력을 못 읽던 문제를 고쳤어요.",
     "3.0.2": "● 화면이 어두워졌을 때 격수 체력을 못 읽던 문제를 고쳤어요 — 어두워도 체력바를 찾아 읽어요.",
@@ -17,14 +18,14 @@
     "warrior": {
       "download_url": "https://dl.lincllab.com/3.0.4/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
       "sha256": "0a968151571042d30e5067cb14f6fd5ca198b5e529d764212be99ec17d903ac3",
-      "update_url": "https://dl.lincllab.com/3.0.4/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "170ad46adfac96f9de8c75cd5c097401f67374b25c83e520b17dfa84aaab755c"
+      "update_url": "https://dl.lincllab.com/3.0.5/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "96548f487dd7d1cf8bf29b2255fa4022805def63dd39509a7f418f89204d3595"
     },
     "healer": {
       "download_url": "https://dl.lincllab.com/3.0.4/LinCl_2PC_AutoHeal-Healer_Setup.exe",
       "sha256": "f2f9482b143387f4e648086e24bcd2634c0231d9ee3c368f62ebccf1b4a70279",
-      "update_url": "https://dl.lincllab.com/3.0.4/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "e9ba5aeafc730c57979f8a965165e78a714d7328faf0fbccc3a2809898ee8afa"
+      "update_url": "https://dl.lincllab.com/3.0.5/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "34732cbfffab427df0a6b2c31a1c60ce4dc0f3fb89786111272d239f12881be9"
     }
   }
 }
