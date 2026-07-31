@@ -1,9 +1,10 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "base_version": "nuitka-4",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v3.1.0)\n● 마우스가 살짝 흔들려도 힐과 따라가기가 끊기지 않아요 — 크게 움직였을 때만 멈춰요. 전에는 조금만 움직여도 멈춰서 F1을 껐다 켜야 했어요.\n● 격수 창에 [통신 점검] 이 생겼어요 — 두 컴퓨터가 서로 연결됐는지, 안 되면 무엇 때문인지 알려줘요.\n● 봇을 켜 둔 채로도 업데이트가 잘 설치돼요 — 전에는 설치가 되돌아가는 경우가 있었어요.\n● 업데이트 설치가 시작되지 않으면 이제 이유를 알려드리고, 앱이 꺼지지 않아요.\n● 프로그램을 켤 때 로딩 화면이 더 깔끔해졌어요.\n● 법사를 설치하면 어떻게 실행하는지 안내 창이 떠요.",
+  "release_notes": "린클랩 2PC 업데이트 (v3.2.0)\n● 독에 걸렸을 때 체력을 아예 못 읽던 문제를 고쳤어요 — 이제 은색 독에서도 힐과 자동귀환이 정상 동작합니다.\n● 자동귀환한 뒤 법사가 혼자 돌아다니던 문제를 고쳤어요 — 이제 그 자리에 바로 멈춥니다.\n● 격수 창을 훨씬 짧고 보기 쉽게 새로 만들었어요 — 세로 길이가 3분의 1 가까이 줄었습니다.\n● 따라가기·자동 힐·자동 버프는 카드 아무 데나 눌러도 켜지고 꺼져요. 단축키도 그대로 됩니다.\n● 「즉시 시전」이 새로 생겼어요 — 법사 F6에 넣어둔 물약이나 자버프를 격수 창에서 바로 쓸 수 있습니다.",
   "changelog": {
+    "3.2.0": "● 독에 걸렸을 때 체력을 아예 못 읽던 문제를 고쳤어요 — 이제 은색 독에서도 힐과 자동귀환이 정상 동작합니다.\n● 자동귀환한 뒤 법사가 혼자 돌아다니던 문제를 고쳤어요 — 이제 그 자리에 바로 멈춥니다.\n● 격수 창을 훨씬 짧고 보기 쉽게 새로 만들었어요 — 세로 길이가 3분의 1 가까이 줄었습니다.\n● 따라가기·자동 힐·자동 버프는 카드 아무 데나 눌러도 켜지고 꺼져요. 단축키도 그대로 됩니다.\n● 「즉시 시전」이 새로 생겼어요 — 법사 F6에 넣어둔 물약이나 자버프를 격수 창에서 바로 쓸 수 있습니다.",
     "3.1.0": "● 마우스가 살짝 흔들려도 힐과 따라가기가 끊기지 않아요 — 크게 움직였을 때만 멈춰요. 전에는 조금만 움직여도 멈춰서 F1을 껐다 켜야 했어요.\n● 격수 창에 [통신 점검] 이 생겼어요 — 두 컴퓨터가 서로 연결됐는지, 안 되면 무엇 때문인지 알려줘요.\n● 봇을 켜 둔 채로도 업데이트가 잘 설치돼요 — 전에는 설치가 되돌아가는 경우가 있었어요.\n● 업데이트 설치가 시작되지 않으면 이제 이유를 알려드리고, 앱이 꺼지지 않아요.\n● 프로그램을 켤 때 로딩 화면이 더 깔끔해졌어요.\n● 법사를 설치하면 어떻게 실행하는지 안내 창이 떠요.",
     "3.0.6": "● 프로그램을 켤 때 창이 뜨지 않던 문제를 고쳤어요.",
     "3.0.5": "● 프로그램을 켤 때 창이 뜨지 않던 문제를 고쳤어요.",
@@ -18,16 +19,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/3.1.0/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "4995f62dee2d4fedcd87957409e8cedd8702dcf0ae8cb1be9f774e61be6fc568",
-      "update_url": "https://dl.lincllab.com/3.1.0/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "e232bb869b021432a77eb20ce003c7b2978898a8fef778ebcd5b16cc47a753ef"
+      "download_url": "https://dl.lincllab.com/3.2.0/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "9b078dce731338c35b27bb2fc41da211f400eed08e29d03b75327259fc60de29",
+      "update_url": "https://dl.lincllab.com/3.2.0/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "83557a6acb66aa2268be0b00ee7999e9915beb5f86d218dd4a7bf0bf535e82bb"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/3.1.0/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "7220dddaea5a4bea96199e7a57b15858bed516e62ef2aec6f96b3a317c6ba636",
-      "update_url": "https://dl.lincllab.com/3.1.0/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "2aa3ee350f378fed9ea610fe11599b6f2177cfe6b3ff5dd3a498fc259e5e5660"
+      "download_url": "https://dl.lincllab.com/3.2.0/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "7822dbe5e08c94e20652beb5953faee2b4251e5aadbd0e317707d21006c85523",
+      "update_url": "https://dl.lincllab.com/3.2.0/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "b4bcb3812ea7d9ab052626759a468eb5f0268a99f00facf4ecfef0783f81e057"
     }
   }
 }
