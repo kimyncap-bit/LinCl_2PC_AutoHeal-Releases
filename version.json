@@ -1,9 +1,10 @@
 {
-  "version": "4.0.21",
+  "version": "4.0.22",
   "base_version": "nuitka-4",
   "channel": "stable",
-  "release_notes": "린클랩 2PC 업데이트 (v4.0.21)\n● 격수 셀프 지정(Beta)이 켜졌어요. 격수 설정창에서 켜고 끌 수 있어요(처음엔 켜져 있어요).",
+  "release_notes": "린클랩 2PC 업데이트 (v4.0.22)\n● 격수 셀프 지정(Beta): 격수탐색 엔진을 개선해서 격수를 못 찾던 상황을 개선했어요.\n● 「격수 다시 찾기」가 이제 기본으로 켜져요. 예전에 꺼 두셨어도 한 번 켜지니, 원하지 않으면 격수 설정에서 다시 꺼 주세요.\n● 따라가기 중 격수를 놓쳐 다시 찾는 동안, 법사가 계속 걸어가지 않게 걸음을 멈춰요\n● 따라가는 동안 격수 이름이 반쯤 가려져도 예전처럼 계속 따라가요. 화면 밖에 나갔다 와도 격수를 다시 찾아요.\n● 파티 모드: 따라가기를 끄거나, 마우스를 움직여 멈추거나, 자동귀환(F8) 뒤에도 솔로처럼 그 자리에서 바로 멈춰요.\n● 파티 모드: 따라가기(F1)를 켠 동안에는 솔로처럼 격수를 놓치면 다시 찾고, 찾는 동안에는 파티힐도 잠깐 쉬어요.\n● 파티 모드: 파티힐이 멈추면 F2 칸에 「멈춤·F2 눌러서 시작」이 뜨고, 한 번 누르면 다시 시작해요. 가까이 있는 파티원을 멀리 있는 것으로 잘못 보고 건너뛰던 일도 줄였어요.\n● 일부 PC에서는 앱 안내 글이 게임 화면 읽기를 방해할 수 있어, 그런 PC에서는 안내 글을 띄우지 않아요.",
   "changelog": {
+    "4.0.22": "● 격수 셀프 지정(Beta): 격수탐색 엔진을 개선해서 격수를 못 찾던 상황을 개선했어요.\n● 「격수 다시 찾기」가 이제 기본으로 켜져요. 예전에 꺼 두셨어도 한 번 켜지니, 원하지 않으면 격수 설정에서 다시 꺼 주세요.\n● 따라가기 중 격수를 놓쳐 다시 찾는 동안, 법사가 계속 걸어가지 않게 걸음을 멈춰요\n● 따라가는 동안 격수 이름이 반쯤 가려져도 예전처럼 계속 따라가요. 화면 밖에 나갔다 와도 격수를 다시 찾아요.\n● 파티 모드: 따라가기를 끄거나, 마우스를 움직여 멈추거나, 자동귀환(F8) 뒤에도 솔로처럼 그 자리에서 바로 멈춰요.\n● 파티 모드: 따라가기(F1)를 켠 동안에는 솔로처럼 격수를 놓치면 다시 찾고, 찾는 동안에는 파티힐도 잠깐 쉬어요.\n● 파티 모드: 파티힐이 멈추면 F2 칸에 「멈춤·F2 눌러서 시작」이 뜨고, 한 번 누르면 다시 시작해요. 가까이 있는 파티원을 멀리 있는 것으로 잘못 보고 건너뛰던 일도 줄였어요.\n● 일부 PC에서는 앱 안내 글이 게임 화면 읽기를 방해할 수 있어, 그런 PC에서는 안내 글을 띄우지 않아요.",
     "4.0.21": "● 격수 셀프 지정(Beta)이 켜졌어요. 격수 설정창에서 켜고 끌 수 있어요(처음엔 켜져 있어요).",
     "4.0.20": "● 격수 셀프 지정(Beta): 격수 컴에서 격수 스스로 지정할 수 있어요. 격수 마우스를 자신에게 올려놓고 따라가기를 켜세요.\n● 파티: 격수가 파티 모드를 켜면 법사가 바로 파티창을 찾아요. 파티 모드에서도 따라가기를 켜면 셀프 지정이 돼요.\n● 최적화로 힐, 버프 간격이 좀더 빨라졌어요. 하지만 너무 빠르게는 안했어요. (사람이 빨리 누를때의 속도로 조정했어요)\n● 버프: 단축키창에서 비어 있는 버프 칸은 스위치가 켜져 있어도 누르지 않아요.",
     "4.0.13": "● 새 기능 인터넷 연결(Beta) · 같은 공유기가 아니어도 인터넷으로 연결할 수 있습니다. 설정창에서 '인터넷 연결'을 선택하세요\n● 법사 코드 6자리를 격수 설정창에 넣어 페어링 하면 인터넷으로 연결합니다.\n● 격수 다시 찾기(Beta): 다음주 패치 예정입니다.\n● 격수 셀프 지정(Beta) : 다음주 패치 예정입니다. 기존의 법사 마우스로 격수 지정 + 격수 마우스로 스스로 지정하는 기능을 준비중입니다.\n● 파티힐 파티창 간헐적 놓침현상 패치",
@@ -30,16 +31,16 @@
   "mandatory": false,
   "apps": {
     "warrior": {
-      "download_url": "https://dl.lincllab.com/4.0.21/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
-      "sha256": "cfd85648370d612ee774432288feddaf303cbaadf28bc99be09cad0d17e191a9",
-      "update_url": "https://dl.lincllab.com/4.0.21/LinCl_2PC_AutoHeal-Warrior_Update.exe",
-      "update_sha256": "12089480e5a80ca93816336d3793bea8c50675046834afd1d76090bc85a3a154"
+      "download_url": "https://dl.lincllab.com/4.0.22/LinCl_2PC_AutoHeal-Warrior_Setup.exe",
+      "sha256": "eacf84c0ea887711f0c64849ed8c946df8adf1154caf3affd43c23d7fc1d109f",
+      "update_url": "https://dl.lincllab.com/4.0.22/LinCl_2PC_AutoHeal-Warrior_Update.exe",
+      "update_sha256": "bed51df287f2913c38fffc7f37ca62b93afefa57e5b073a7ce91d13ef5398fa4"
     },
     "healer": {
-      "download_url": "https://dl.lincllab.com/4.0.21/LinCl_2PC_AutoHeal-Healer_Setup.exe",
-      "sha256": "a527a72ec29a8fa4b233fb371dc2ed7569ba8cd547d9ff2a9ab80c405caa55a0",
-      "update_url": "https://dl.lincllab.com/4.0.21/LinCl_2PC_AutoHeal-Healer_Update.exe",
-      "update_sha256": "14c2108c084ec4912895a7077b001d27833fe1688c4edb3852854ab371ba5fdb"
+      "download_url": "https://dl.lincllab.com/4.0.22/LinCl_2PC_AutoHeal-Healer_Setup.exe",
+      "sha256": "a2ed0139159d3498eff0aa9567b4120e23d6a4e87fd12b7edc0bae3aef4f036e",
+      "update_url": "https://dl.lincllab.com/4.0.22/LinCl_2PC_AutoHeal-Healer_Update.exe",
+      "update_sha256": "48e57c23fb3dab00561c2e99df1aaf19be82c31b733564f5ff7d0c7cfecf1d48"
     }
   }
 }
